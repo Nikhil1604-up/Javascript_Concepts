@@ -36,3 +36,10 @@ const func = function named() {
 // } --> Parameters
 
 // para(arg1,arg2) --> arguments
+
+// First class function
+
+// The ability to use function as values (function expression),can be passed as an argument to other function and can be returned from the function is known as first called function
+// Functions are first class citizens or first class function both are one and same thing.
+
+// Arrow function --> () => console.log("I'm an anonymoous arrow function")
