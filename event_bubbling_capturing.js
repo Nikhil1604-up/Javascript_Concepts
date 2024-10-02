@@ -98,3 +98,5 @@ document.querySelector("#child").addEventListener(
   },
   false
 );
+
+// So when we click on the parent the output will be ,Child called -> Parent called (and at parent div the event propagation will be stopped.)
