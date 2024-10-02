@@ -38,3 +38,9 @@ function attachEventLIsterners() {
   });
 }
 attachEventLIsterners();
+
+// Now this is a secure way the callback function forms a closure with the count variable and remembers its values.
+
+// Garbage Collections and removeEventListeners
+
+// Event listeners are heavy ,it means that it takes memory and event when we are not using the event listeners then also the memory is not freed up and when we remove event listeners all the memory is garbage collected.
